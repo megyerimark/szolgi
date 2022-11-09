@@ -7,8 +7,8 @@ import { ProductService } from '../shared/product.service';
 })
 export class ProductComponent implements OnInit {
 products !: any
-  productService: any;
-  constructor( productService: ProductService) { 
+
+  constructor(  private productService: ProductService) { 
     
   }
 
