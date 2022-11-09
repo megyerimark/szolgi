@@ -6,8 +6,8 @@ import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
   {path:'product', component: ProductComponent }, 
-  {path:'product', component: EmployeeComponent }, 
-  {path:'product', component: ShopComponent } 
+  {path:'employee', component: EmployeeComponent }, 
+  {path:'shop', component: ShopComponent } 
 ];
 
 @NgModule({
