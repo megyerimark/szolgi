@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+.m{
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    align-items: center; 
+    color:#a084ca;
+    background: #47b5ff;
+    border-radius: 30px;
+}
+.m:hover{
+    text-align: center;
+    background: #645CAA;
+    border-radius: 35px;
+    color: gold;
+    transform: rotateX(180deg);
+
+}

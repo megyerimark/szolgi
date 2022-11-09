@@ -13,4 +13,8 @@ export class ProductService {
   ]
 
   constructor() { }
+  getProduct(){
+    return this.products;
+  }
+
 }
